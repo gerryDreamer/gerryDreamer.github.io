@@ -1,7 +1,9 @@
 <header class="header">
 	<nav>
 		<!-- {{ include.content }} -->
-		<ul class="header-nav">
+		<input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+		<label class="show-mobile-menu">Menu</label>
+		<ul class="header-nav nav-links">
 		{% include nav-links.html %}
 		</ul>
 	</nav>
